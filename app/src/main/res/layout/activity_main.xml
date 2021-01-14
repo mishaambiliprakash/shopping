@@ -1,0 +1,252 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#C8A8C4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <GridLayout
+            android:rowCount="3"
+            android:columnCount="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/one"
+                        android:layout_width="300px"
+                        android:layout_height="300px"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="BUY NOW"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="ADD TO CART"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/two"
+                        android:layout_width="300px"
+                        android:layout_height="300px"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="BUY NOW"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="ADD TO CART"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/three"
+                        android:layout_width="300px"
+                        android:layout_height="300px"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="BUY NOW"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="ADD TO CART"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/four"
+                        android:layout_width="300px"
+                        android:layout_height="300px"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="BUY NOW"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="ADD TO CART"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/five"
+                        android:layout_width="300px"
+                        android:layout_height="300px"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="BUY NOW"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="ADD TO CART"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_margin="15dp"
+                android:layout_gravity="center"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="12dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:src="@drawable/six"
+                        android:layout_width="300px"
+                        android:layout_height="300px"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="BUY NOW"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:layout_margin="10dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:text="ADD TO CART"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
